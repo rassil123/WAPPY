@@ -1,0 +1,129 @@
+
+  html {
+    min-height: 100%;
+  }
+  link:link {
+    text-decoration: underline;
+  }
+  link:hover {
+    text-decoration: none;
+  }
+  body{
+      font-family: 'Poppins';
+      background: #0f0c29; /* fallback for old browsers */
+      background: -webkit-linear-gradient(150deg, hsl(277, 94%, 28%) 0%, hsl(250, 72%, 51%) 78%); /* Chrome 10-25, Safari 5.1-6 */
+      background: linear-gradient(150deg, hsl(277, 94%, 28%) 0%, hsl(250, 89%, 44%) 78%); }
+    
+    .submission-form{
+      max-width:500px;
+      margin:2rem auto;
+      background-color: #ffffff;
+      border:2px solid #f9f1f0;
+      padding:2rem;
+      border-radius:5px;
+      
+    }
+
+
+
+  h1
+  {
+    text-align: center;
+  }
+  input{
+    display:block;
+    width:100%;
+    outline: none;
+    
+    border:2px solid #dfdfdf;
+    padding:.5rem;
+    font-size:18px;
+    border-radius:5px;
+  }
+
+
+ label
+ {
+        display: block ;
+        padding:1rem 0 .25rem;
+        text-transform:uppercase;
+        font-size:6;
+      }
+    
+  
+  .form-sub-msg
+  {
+    color:white;
+    margin:85px;
+    
+
+  }
+  #sendBtn{
+    border-radius:  6px;
+    border:1px solid #ffffff;
+    background-image:linear-gradient(150deg, hsl(277, 94%, 28%) 0%,rgb(0, 32, 238), hsl(250, 72%, 51%) 78%);
+    padding:.5rem;
+    color:white;
+    margin:1rem 0;
+    width:auto;
+    text-transform:uppercase;
+    cursor:pointer;
+    transition:.3s ;
+    background-size: 200%;
+    margin: auto;
+
+    
+  }
+  #sendBtn:hover{
+    background-position:right;
+  }
+
+  #sendBtn:active{
+
+    background-image: #ffffff;
+    color: linear-gradient(150deg, hsl(277, 94%, 28%) 0%, hsl(250, 72%, 51%) 78%);
+    transform: translateY(4px);
+  }
+
+
+  .form-message {
+    margin: 20px auto 0 auto;
+    border-radius: 10px;
+    text-transform: capitalize;
+    max-width: 560px;
+    width: 90%;
+    height: 80px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  
+  .form-message p {
+    text-align: center;
+    font-size: 1.6rem;
+  }
+  
+  .form-message-red {
+    background-color: #ffb3b3;
+    border: 2px solid #ff0000;
+  }
+  
+  .form-message-green {
+    background-color: lightgreen;
+    border: 2px solid green;
+  }
+  
+
+  .signup_btn
+  {
+
+    margin-left: 10px;
+
+
+  }
